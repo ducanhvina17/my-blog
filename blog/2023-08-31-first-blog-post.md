@@ -1,11 +1,7 @@
 ---
 slug: first-blog-post
 title: Welcome to Nguyen Duc Anh's Tech Blog!
-authors:
-    name: Nguyễn Đức Anh
-    title: Lead Software Engineer at Zalo
-    url: https://github.com/ducanhvina17
-    image_url: https://img.freepik.com/premium-photo/illustration-man-abstract-art-ai-generated_57312-1422.jpg
+authors: [anhnd]
 tags: []
 ---
 
