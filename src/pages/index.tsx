@@ -4,6 +4,8 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomePageCustorm';
+import {Analytics} from '@vercel/analytics/react';
+
 
 import styles from './index.module.css';
 
@@ -34,8 +36,9 @@ export default function Home(): JSX.Element {
       description="Description will go into a meta tag in <head />">
       {/*<HomepageHeader />*/}
       <main>
-        <HomepageFeatures />
+        <HomepageFeatures/>
       </main>
+      <Analytics/>
     </Layout>
   );
 }
